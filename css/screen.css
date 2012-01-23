@@ -1,0 +1,21 @@
+body, html { margin: 0; padding: 0; }
+
+body { font-family: sans-serif; color: black; background: white; }
+a { color: black; }
+a:hover { color: red; }
+
+#container { }
+
+#header { text-align: center; }
+#header h1 { }
+#header img { width: 90%; }
+
+#navigation { display: none; }
+
+#main { width: 500px; margin: 0 auto; margin-top: 50px; }
+#main h2 { }
+#main p { }
+
+#footer { display: none; }
+
+
