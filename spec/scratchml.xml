@@ -1,0 +1,107 @@
+<sml>
+  <version>
+    <major>0</major>
+    <minor>6</minor>
+  </version>
+
+  <info>
+    <client>Cutcapture 9000 version 1.1</client>
+    <author>
+      <name>Qbert</name>
+      <url>http://www.djqbert.com</url>
+      <location>
+        <description>San Francisco, CA</description>
+        <latlon>32.44, 22.34</latlon>
+      </location>
+    </author>
+    <description>Crab/flare combo, 1998</description>
+    <tags>crab, flare, old</tags>
+    <created>2012-07-17T09:24:17Z</created>
+    <url>http://scratchml.com/data/340923</url>
+  </info>
+
+  <audio>
+    <sample>
+      <filename>samples/fresh.wav</filename>
+      <description></description>
+
+      <deck>left</deck>
+      <start></start>
+      <stop></stop>
+    </sample>
+  </audio>
+
+
+  <performance>
+    <turntable>
+      <deck>left</deck>
+      <samplerate>375</samplerate>
+      <data><p>1000.02</p><p>1010.32</p><p>1020.34</p><p>1030.23</p></data>
+    </turntable>
+    <mixer>
+      <fader>
+        <hamster>true</hamster>
+        <data>
+          <event>
+            <t>0</t>
+            <p>0</p>
+          </event>
+          <event>
+            <t>1736</t>
+            <p>.5</p>
+          </event>
+          <event>
+            <t>2362</t>
+            <p>1</p>
+          </event>
+          <event>
+            <t>3034</t>
+            <p>.5</p>
+          </event>
+        </data>
+      </fader>
+    </mixer>
+  </performance>
+
+
+  <transcription>
+    <turntable>
+      <deck>left</deck>
+
+      <scratch>
+        <name>flare</name>
+        <curve>
+          <t>0</t>
+          <p>0</p>
+        </curve>
+        <line>
+          <t>1000</t>
+          <p>1000</p>
+        </curve>
+      </scratch>
+    </turntable>
+    <mixer>
+      <fader>
+
+        <move>
+          <t>1000</t>
+          <p>center</p>
+        </move>
+
+        <click>
+          <t>1500</t>
+          <p>right</p>
+        </click>
+
+        <crab>
+          <p>right</p>
+          <clicks>3</clicks>
+          <t>
+            <start>3000</start>
+            <end>3400</end>
+          </t>
+        </crab>
+      </fader>
+    </mixer>
+  </transcription>
+</scratch>

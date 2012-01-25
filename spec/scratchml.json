@@ -1,0 +1,84 @@
+{
+  "sml": {
+    "version": {
+      "major": "0",
+      "minor": "6"
+    },
+    "info": {
+      "client": "Cutcapture 9000 version 1.1",
+      "author": {
+        "name": "Qbert",
+        "url": "http://www.djqbert.com",
+        "location": {
+          "description": "San Francisco, CA",
+          "latlon": "32.44, 22.34"
+        }
+      },
+      "description": "Crab/flare combo, 1998",
+      "tags": "crab, flare, old",
+      "created": "2012-07-17T09:24:17Z",
+      "url": "http://scratchml.com/data/340923"
+    },
+    "audio": {
+      "sample": {
+        "filename": "samples/fresh.wav",
+        "deck": "left"
+      }
+    },
+    "performance": {
+      "turntable": {
+        "deck": "left",
+        "samplerate": "375",
+        "data": {
+          "p": [
+            "1000.02",
+            "1010.32",
+            "1020.34",
+            "1030.23"
+          ]
+        }
+      },
+      "mixer": {
+        "fader": {
+          "hamster": "true",
+          "data": {
+            "events": [
+              {
+                "t": "0",
+                "p": "0"
+              },
+              {
+                "t": "1736",
+                "p": ".5"
+              },
+              {
+                "t": "2362",
+                "p": "1"
+              },
+              {
+                "t": "3034",
+                "p": ".5"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "transcription": {
+      "turntable": {
+        "deck": "left",
+        "scratch": {
+          "name": "flare",
+          "curve": {
+            "t": "0",
+            "p": "0"
+          },
+          "line": {
+            "t": "1000",
+            "p": "1000"
+          }
+        }
+      }
+    }
+  }
+}
