@@ -8,7 +8,7 @@ a:hover { color: red; }
 
 #header { text-align: center; }
 #header h1 { }
-#header img { width: 90%; }
+#header img { width: 600px; }
 
 #navigation { display: none; }
 
