@@ -18,4 +18,19 @@ a:hover { color: red; }
 
 #footer { display: none; }
 
+#updates { margin-right: -300px; float: right; font-size: 8pt; color: #999; padding: 20px; margin-left: 40px; }
+#socialmedia {
+/*  position: absolute;
+  z-index: 10;
+  top: 8px;
+  right: 0px;
+*/  width: 220px;
+/*  height: 28px;*/
+  overflow: hidden;
+}
 
+/*#socialmedia div { float: left; margin-left: 8px; }*/
+#socialmedia div { display: block; margin-top: 10px; }
+#socialmedia .google { }
+#socialmedia .twitter { }
+#socialmedia .facebook { }
