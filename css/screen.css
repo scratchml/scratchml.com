@@ -12,7 +12,7 @@ a:hover { color: red; }
 
 #navigation { display: none; }
 
-#main { width: 500px; margin: 0 auto; margin-top: 50px; }
+#main { width: 500px; margin: 0 auto; margin-top: 50px; padding-bottom: 80px; }
 #main h2 { }
 #main p { }
 
